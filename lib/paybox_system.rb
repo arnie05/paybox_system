@@ -38,7 +38,7 @@ module Paybox
         formatted_options["PBX_HMAC"] = signature
 
 
-        formatted_options['PBX_PORTEUR'] = CGI.escape(formatted_options['PBX_PORTEUR']) if formatted_options['PBX_PORTEUR']
+        #formatted_options['PBX_PORTEUR'] = CGI.escape(formatted_options['PBX_PORTEUR']) if formatted_options['PBX_PORTEUR']
 
         formatted_options
       end
